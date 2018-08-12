@@ -1,0 +1,67 @@
+/* Cabecalho */
+#cabecalho {
+  background-color: #444;
+  padding: 12px;
+  color: white;
+  border-radius: 4px;
+  font-family: 'Arial';
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+  
+  margin-bottom: 5px;
+}
+
+/*** FORM ***/
+form {
+  padding: 15px;
+  margin-botton: 5px;
+}
+
+/* INPUT */
+input, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 3px;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+/* BUTTONS */
+.btn-editar {
+  background-color: lightblue;
+  border: 1px solid lightblue;
+  font-weight: bold;
+}
+
+.btn-excluir {
+  background-color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-excluir, .btn-editar {
+  padding: 5px 10px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border: 1px solid #666;
+  border-collapse: collapse;
+}
+table th {
+  background-color: #ccc;
+}
+
+table td, table tr {
+  border: 1px solid #666;
+}
+
+table tr td {
+  text-align: center;
+}
